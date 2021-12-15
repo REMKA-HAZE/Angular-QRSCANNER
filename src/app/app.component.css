@@ -1,0 +1,20 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+:host zxing-scanner::ng-deep video {
+  max-height: 50vh;
+  object-fit: contain;
+}
+:host zxing-scanner::ng-deep {
+  border-style: solid;
+  border-color: #5d78ff;
+}
+canvas {
+  width: 320px !important;
+  height: 480px !important;
+}
+.viewport::ng-deep video {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
